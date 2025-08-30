@@ -1,8 +1,11 @@
-function Card() {
+function Card(props) {
     return (
-        <>
-            <p>This is my First Component</p>
-        </>
+        <div className="card">
+            <img src={props.img} alt="" />
+            <h2>{props.name}</h2>
+            <p>Price : {props.price}</p>
+            <button>Add to Cart</button>
+        </div>
     )
 }
 

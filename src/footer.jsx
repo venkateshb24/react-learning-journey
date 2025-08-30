@@ -1,8 +1,8 @@
 function Footer() {
     return (
-        <>
-            <p>&copy; By Venkatesh</p>
-        </>
+        <footer>
+            <p>Copyright &copy; By Venkatesh</p>
+        </footer>
     )
 }
 
