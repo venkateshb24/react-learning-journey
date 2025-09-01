@@ -41,6 +41,7 @@ button{
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 button:hover{
@@ -58,3 +59,4 @@ Footer{
   bottom: 0;
   left: 0;
 }
+

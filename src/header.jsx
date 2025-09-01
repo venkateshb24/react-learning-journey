@@ -2,8 +2,7 @@ function Header() {
     return (
         <>
             <header>
-                <h1>Restaurant</h1>
-                <h3>Menus : </h3>
+                <h1>Counter App</h1>
             </header>
         </>
     )
